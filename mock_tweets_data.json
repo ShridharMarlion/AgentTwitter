@@ -1,0 +1,706 @@
+{
+  "keyword_tweets": [
+    {
+      "id": "123450",
+      "text": "This is a mock tweet about Artificial Intelligence. AI is revolutionizing how we interact with technology.",
+      "created_at": "2025-05-05 20:01:11.253565",
+      "user_name": "Mock User",
+      "user_screen_name": "mock_user_0",
+      "user_verified": true,
+      "retweet_count": 42,
+      "favorite_count": 100,
+      "hashtags": [
+        "AI",
+        "Tech"
+      ],
+      "urls": [
+        "https://example.com"
+      ],
+      "mentions": [
+        "OpenAI"
+      ],
+      "url": "https://twitter.com/mock_user_0/status/123450",
+      "language": "en",
+      "source": "mock_data"
+    },
+    {
+      "id": "123451",
+      "text": "This is a mock tweet about Artificial Intelligence. AI is revolutionizing how we interact with technology.",
+      "created_at": "2025-05-05 20:01:11.253565",
+      "user_name": "Mock User",
+      "user_screen_name": "mock_user_1",
+      "user_verified": true,
+      "retweet_count": 42,
+      "favorite_count": 100,
+      "hashtags": [
+        "AI",
+        "Tech"
+      ],
+      "urls": [
+        "https://example.com"
+      ],
+      "mentions": [
+        "OpenAI"
+      ],
+      "url": "https://twitter.com/mock_user_1/status/123451",
+      "language": "en",
+      "source": "mock_data"
+    },
+    {
+      "id": "123452",
+      "text": "This is a mock tweet about Artificial Intelligence. AI is revolutionizing how we interact with technology.",
+      "created_at": "2025-05-05 20:01:11.253565",
+      "user_name": "Mock User",
+      "user_screen_name": "mock_user_2",
+      "user_verified": true,
+      "retweet_count": 42,
+      "favorite_count": 100,
+      "hashtags": [
+        "AI",
+        "Tech"
+      ],
+      "urls": [
+        "https://example.com"
+      ],
+      "mentions": [
+        "OpenAI"
+      ],
+      "url": "https://twitter.com/mock_user_2/status/123452",
+      "language": "en",
+      "source": "mock_data"
+    },
+    {
+      "id": "123453",
+      "text": "This is a mock tweet about Artificial Intelligence. AI is revolutionizing how we interact with technology.",
+      "created_at": "2025-05-05 20:01:11.253565",
+      "user_name": "Mock User",
+      "user_screen_name": "mock_user_3",
+      "user_verified": true,
+      "retweet_count": 42,
+      "favorite_count": 100,
+      "hashtags": [
+        "AI",
+        "Tech"
+      ],
+      "urls": [
+        "https://example.com"
+      ],
+      "mentions": [
+        "OpenAI"
+      ],
+      "url": "https://twitter.com/mock_user_3/status/123453",
+      "language": "en",
+      "source": "mock_data"
+    },
+    {
+      "id": "123454",
+      "text": "This is a mock tweet about Artificial Intelligence. AI is revolutionizing how we interact with technology.",
+      "created_at": "2025-05-05 20:01:11.253565",
+      "user_name": "Mock User",
+      "user_screen_name": "mock_user_4",
+      "user_verified": true,
+      "retweet_count": 42,
+      "favorite_count": 100,
+      "hashtags": [
+        "AI",
+        "Tech"
+      ],
+      "urls": [
+        "https://example.com"
+      ],
+      "mentions": [
+        "OpenAI"
+      ],
+      "url": "https://twitter.com/mock_user_4/status/123454",
+      "language": "en",
+      "source": "mock_data"
+    }
+  ],
+  "hashtag_tweets": [
+    {
+      "id": "123455",
+      "text": "This is a mock tweet about #AI and #ML. Machine learning models are getting more powerful every day.",
+      "created_at": "2025-05-05 20:01:11.253565",
+      "user_name": "Mock User",
+      "user_screen_name": "mock_user_5",
+      "user_verified": true,
+      "retweet_count": 42,
+      "favorite_count": 100,
+      "hashtags": [
+        "AI",
+        "Tech"
+      ],
+      "urls": [
+        "https://example.com"
+      ],
+      "mentions": [
+        "OpenAI"
+      ],
+      "url": "https://twitter.com/mock_user_5/status/123455",
+      "language": "en",
+      "source": "mock_data"
+    },
+    {
+      "id": "123456",
+      "text": "This is a mock tweet about #AI and #ML. Machine learning models are getting more powerful every day.",
+      "created_at": "2025-05-05 20:01:11.253565",
+      "user_name": "Mock User",
+      "user_screen_name": "mock_user_6",
+      "user_verified": true,
+      "retweet_count": 42,
+      "favorite_count": 100,
+      "hashtags": [
+        "AI",
+        "Tech"
+      ],
+      "urls": [
+        "https://example.com"
+      ],
+      "mentions": [
+        "OpenAI"
+      ],
+      "url": "https://twitter.com/mock_user_6/status/123456",
+      "language": "en",
+      "source": "mock_data"
+    },
+    {
+      "id": "123457",
+      "text": "This is a mock tweet about #AI and #ML. Machine learning models are getting more powerful every day.",
+      "created_at": "2025-05-05 20:01:11.253565",
+      "user_name": "Mock User",
+      "user_screen_name": "mock_user_7",
+      "user_verified": true,
+      "retweet_count": 42,
+      "favorite_count": 100,
+      "hashtags": [
+        "AI",
+        "Tech"
+      ],
+      "urls": [
+        "https://example.com"
+      ],
+      "mentions": [
+        "OpenAI"
+      ],
+      "url": "https://twitter.com/mock_user_7/status/123457",
+      "language": "en",
+      "source": "mock_data"
+    },
+    {
+      "id": "123458",
+      "text": "This is a mock tweet about #AI and #ML. Machine learning models are getting more powerful every day.",
+      "created_at": "2025-05-05 20:01:11.253565",
+      "user_name": "Mock User",
+      "user_screen_name": "mock_user_8",
+      "user_verified": true,
+      "retweet_count": 42,
+      "favorite_count": 100,
+      "hashtags": [
+        "AI",
+        "Tech"
+      ],
+      "urls": [
+        "https://example.com"
+      ],
+      "mentions": [
+        "OpenAI"
+      ],
+      "url": "https://twitter.com/mock_user_8/status/123458",
+      "language": "en",
+      "source": "mock_data"
+    },
+    {
+      "id": "123459",
+      "text": "This is a mock tweet about #AI and #ML. Machine learning models are getting more powerful every day.",
+      "created_at": "2025-05-05 20:01:11.253565",
+      "user_name": "Mock User",
+      "user_screen_name": "mock_user_9",
+      "user_verified": true,
+      "retweet_count": 42,
+      "favorite_count": 100,
+      "hashtags": [
+        "AI",
+        "Tech"
+      ],
+      "urls": [
+        "https://example.com"
+      ],
+      "mentions": [
+        "OpenAI"
+      ],
+      "url": "https://twitter.com/mock_user_9/status/123459",
+      "language": "en",
+      "source": "mock_data"
+    }
+  ],
+  "account_tweets": [
+    {
+      "id": "1234510",
+      "text": "This is a mock tweet about OpenAI's latest research. GPT-4 is pushing the boundaries of what's possible with language models.",
+      "created_at": "2025-05-05 20:01:11.253565",
+      "user_name": "Mock User",
+      "user_screen_name": "mock_user_10",
+      "user_verified": true,
+      "retweet_count": 42,
+      "favorite_count": 100,
+      "hashtags": [
+        "AI",
+        "Tech"
+      ],
+      "urls": [
+        "https://example.com"
+      ],
+      "mentions": [
+        "OpenAI"
+      ],
+      "url": "https://twitter.com/mock_user_10/status/1234510",
+      "language": "en",
+      "source": "mock_data"
+    },
+    {
+      "id": "1234511",
+      "text": "This is a mock tweet about OpenAI's latest research. GPT-4 is pushing the boundaries of what's possible with language models.",
+      "created_at": "2025-05-05 20:01:11.253565",
+      "user_name": "Mock User",
+      "user_screen_name": "mock_user_11",
+      "user_verified": true,
+      "retweet_count": 42,
+      "favorite_count": 100,
+      "hashtags": [
+        "AI",
+        "Tech"
+      ],
+      "urls": [
+        "https://example.com"
+      ],
+      "mentions": [
+        "OpenAI"
+      ],
+      "url": "https://twitter.com/mock_user_11/status/1234511",
+      "language": "en",
+      "source": "mock_data"
+    },
+    {
+      "id": "1234512",
+      "text": "This is a mock tweet about OpenAI's latest research. GPT-4 is pushing the boundaries of what's possible with language models.",
+      "created_at": "2025-05-05 20:01:11.253565",
+      "user_name": "Mock User",
+      "user_screen_name": "mock_user_12",
+      "user_verified": true,
+      "retweet_count": 42,
+      "favorite_count": 100,
+      "hashtags": [
+        "AI",
+        "Tech"
+      ],
+      "urls": [
+        "https://example.com"
+      ],
+      "mentions": [
+        "OpenAI"
+      ],
+      "url": "https://twitter.com/mock_user_12/status/1234512",
+      "language": "en",
+      "source": "mock_data"
+    },
+    {
+      "id": "1234513",
+      "text": "This is a mock tweet about OpenAI's latest research. GPT-4 is pushing the boundaries of what's possible with language models.",
+      "created_at": "2025-05-05 20:01:11.253565",
+      "user_name": "Mock User",
+      "user_screen_name": "mock_user_13",
+      "user_verified": true,
+      "retweet_count": 42,
+      "favorite_count": 100,
+      "hashtags": [
+        "AI",
+        "Tech"
+      ],
+      "urls": [
+        "https://example.com"
+      ],
+      "mentions": [
+        "OpenAI"
+      ],
+      "url": "https://twitter.com/mock_user_13/status/1234513",
+      "language": "en",
+      "source": "mock_data"
+    },
+    {
+      "id": "1234514",
+      "text": "This is a mock tweet about OpenAI's latest research. GPT-4 is pushing the boundaries of what's possible with language models.",
+      "created_at": "2025-05-05 20:01:11.253565",
+      "user_name": "Mock User",
+      "user_screen_name": "mock_user_14",
+      "user_verified": true,
+      "retweet_count": 42,
+      "favorite_count": 100,
+      "hashtags": [
+        "AI",
+        "Tech"
+      ],
+      "urls": [
+        "https://example.com"
+      ],
+      "mentions": [
+        "OpenAI"
+      ],
+      "url": "https://twitter.com/mock_user_14/status/1234514",
+      "language": "en",
+      "source": "mock_data"
+    }
+  ],
+  "combined_tweets": [
+    {
+      "id": "123450",
+      "text": "This is a mock tweet about Artificial Intelligence. AI is revolutionizing how we interact with technology.",
+      "created_at": "2025-05-05 20:01:11.253565",
+      "user_name": "Mock User",
+      "user_screen_name": "mock_user_0",
+      "user_verified": true,
+      "retweet_count": 42,
+      "favorite_count": 100,
+      "hashtags": [
+        "AI",
+        "Tech"
+      ],
+      "urls": [
+        "https://example.com"
+      ],
+      "mentions": [
+        "OpenAI"
+      ],
+      "url": "https://twitter.com/mock_user_0/status/123450",
+      "language": "en",
+      "source": "mock_data"
+    },
+    {
+      "id": "123451",
+      "text": "This is a mock tweet about Artificial Intelligence. AI is revolutionizing how we interact with technology.",
+      "created_at": "2025-05-05 20:01:11.253565",
+      "user_name": "Mock User",
+      "user_screen_name": "mock_user_1",
+      "user_verified": true,
+      "retweet_count": 42,
+      "favorite_count": 100,
+      "hashtags": [
+        "AI",
+        "Tech"
+      ],
+      "urls": [
+        "https://example.com"
+      ],
+      "mentions": [
+        "OpenAI"
+      ],
+      "url": "https://twitter.com/mock_user_1/status/123451",
+      "language": "en",
+      "source": "mock_data"
+    },
+    {
+      "id": "123452",
+      "text": "This is a mock tweet about Artificial Intelligence. AI is revolutionizing how we interact with technology.",
+      "created_at": "2025-05-05 20:01:11.253565",
+      "user_name": "Mock User",
+      "user_screen_name": "mock_user_2",
+      "user_verified": true,
+      "retweet_count": 42,
+      "favorite_count": 100,
+      "hashtags": [
+        "AI",
+        "Tech"
+      ],
+      "urls": [
+        "https://example.com"
+      ],
+      "mentions": [
+        "OpenAI"
+      ],
+      "url": "https://twitter.com/mock_user_2/status/123452",
+      "language": "en",
+      "source": "mock_data"
+    },
+    {
+      "id": "123453",
+      "text": "This is a mock tweet about Artificial Intelligence. AI is revolutionizing how we interact with technology.",
+      "created_at": "2025-05-05 20:01:11.253565",
+      "user_name": "Mock User",
+      "user_screen_name": "mock_user_3",
+      "user_verified": true,
+      "retweet_count": 42,
+      "favorite_count": 100,
+      "hashtags": [
+        "AI",
+        "Tech"
+      ],
+      "urls": [
+        "https://example.com"
+      ],
+      "mentions": [
+        "OpenAI"
+      ],
+      "url": "https://twitter.com/mock_user_3/status/123453",
+      "language": "en",
+      "source": "mock_data"
+    },
+    {
+      "id": "123454",
+      "text": "This is a mock tweet about Artificial Intelligence. AI is revolutionizing how we interact with technology.",
+      "created_at": "2025-05-05 20:01:11.253565",
+      "user_name": "Mock User",
+      "user_screen_name": "mock_user_4",
+      "user_verified": true,
+      "retweet_count": 42,
+      "favorite_count": 100,
+      "hashtags": [
+        "AI",
+        "Tech"
+      ],
+      "urls": [
+        "https://example.com"
+      ],
+      "mentions": [
+        "OpenAI"
+      ],
+      "url": "https://twitter.com/mock_user_4/status/123454",
+      "language": "en",
+      "source": "mock_data"
+    },
+    {
+      "id": "123455",
+      "text": "This is a mock tweet about #AI and #ML. Machine learning models are getting more powerful every day.",
+      "created_at": "2025-05-05 20:01:11.253565",
+      "user_name": "Mock User",
+      "user_screen_name": "mock_user_5",
+      "user_verified": true,
+      "retweet_count": 42,
+      "favorite_count": 100,
+      "hashtags": [
+        "AI",
+        "Tech"
+      ],
+      "urls": [
+        "https://example.com"
+      ],
+      "mentions": [
+        "OpenAI"
+      ],
+      "url": "https://twitter.com/mock_user_5/status/123455",
+      "language": "en",
+      "source": "mock_data"
+    },
+    {
+      "id": "123456",
+      "text": "This is a mock tweet about #AI and #ML. Machine learning models are getting more powerful every day.",
+      "created_at": "2025-05-05 20:01:11.253565",
+      "user_name": "Mock User",
+      "user_screen_name": "mock_user_6",
+      "user_verified": true,
+      "retweet_count": 42,
+      "favorite_count": 100,
+      "hashtags": [
+        "AI",
+        "Tech"
+      ],
+      "urls": [
+        "https://example.com"
+      ],
+      "mentions": [
+        "OpenAI"
+      ],
+      "url": "https://twitter.com/mock_user_6/status/123456",
+      "language": "en",
+      "source": "mock_data"
+    },
+    {
+      "id": "123457",
+      "text": "This is a mock tweet about #AI and #ML. Machine learning models are getting more powerful every day.",
+      "created_at": "2025-05-05 20:01:11.253565",
+      "user_name": "Mock User",
+      "user_screen_name": "mock_user_7",
+      "user_verified": true,
+      "retweet_count": 42,
+      "favorite_count": 100,
+      "hashtags": [
+        "AI",
+        "Tech"
+      ],
+      "urls": [
+        "https://example.com"
+      ],
+      "mentions": [
+        "OpenAI"
+      ],
+      "url": "https://twitter.com/mock_user_7/status/123457",
+      "language": "en",
+      "source": "mock_data"
+    },
+    {
+      "id": "123458",
+      "text": "This is a mock tweet about #AI and #ML. Machine learning models are getting more powerful every day.",
+      "created_at": "2025-05-05 20:01:11.253565",
+      "user_name": "Mock User",
+      "user_screen_name": "mock_user_8",
+      "user_verified": true,
+      "retweet_count": 42,
+      "favorite_count": 100,
+      "hashtags": [
+        "AI",
+        "Tech"
+      ],
+      "urls": [
+        "https://example.com"
+      ],
+      "mentions": [
+        "OpenAI"
+      ],
+      "url": "https://twitter.com/mock_user_8/status/123458",
+      "language": "en",
+      "source": "mock_data"
+    },
+    {
+      "id": "123459",
+      "text": "This is a mock tweet about #AI and #ML. Machine learning models are getting more powerful every day.",
+      "created_at": "2025-05-05 20:01:11.253565",
+      "user_name": "Mock User",
+      "user_screen_name": "mock_user_9",
+      "user_verified": true,
+      "retweet_count": 42,
+      "favorite_count": 100,
+      "hashtags": [
+        "AI",
+        "Tech"
+      ],
+      "urls": [
+        "https://example.com"
+      ],
+      "mentions": [
+        "OpenAI"
+      ],
+      "url": "https://twitter.com/mock_user_9/status/123459",
+      "language": "en",
+      "source": "mock_data"
+    },
+    {
+      "id": "1234510",
+      "text": "This is a mock tweet about OpenAI's latest research. GPT-4 is pushing the boundaries of what's possible with language models.",
+      "created_at": "2025-05-05 20:01:11.253565",
+      "user_name": "Mock User",
+      "user_screen_name": "mock_user_10",
+      "user_verified": true,
+      "retweet_count": 42,
+      "favorite_count": 100,
+      "hashtags": [
+        "AI",
+        "Tech"
+      ],
+      "urls": [
+        "https://example.com"
+      ],
+      "mentions": [
+        "OpenAI"
+      ],
+      "url": "https://twitter.com/mock_user_10/status/1234510",
+      "language": "en",
+      "source": "mock_data"
+    },
+    {
+      "id": "1234511",
+      "text": "This is a mock tweet about OpenAI's latest research. GPT-4 is pushing the boundaries of what's possible with language models.",
+      "created_at": "2025-05-05 20:01:11.253565",
+      "user_name": "Mock User",
+      "user_screen_name": "mock_user_11",
+      "user_verified": true,
+      "retweet_count": 42,
+      "favorite_count": 100,
+      "hashtags": [
+        "AI",
+        "Tech"
+      ],
+      "urls": [
+        "https://example.com"
+      ],
+      "mentions": [
+        "OpenAI"
+      ],
+      "url": "https://twitter.com/mock_user_11/status/1234511",
+      "language": "en",
+      "source": "mock_data"
+    },
+    {
+      "id": "1234512",
+      "text": "This is a mock tweet about OpenAI's latest research. GPT-4 is pushing the boundaries of what's possible with language models.",
+      "created_at": "2025-05-05 20:01:11.253565",
+      "user_name": "Mock User",
+      "user_screen_name": "mock_user_12",
+      "user_verified": true,
+      "retweet_count": 42,
+      "favorite_count": 100,
+      "hashtags": [
+        "AI",
+        "Tech"
+      ],
+      "urls": [
+        "https://example.com"
+      ],
+      "mentions": [
+        "OpenAI"
+      ],
+      "url": "https://twitter.com/mock_user_12/status/1234512",
+      "language": "en",
+      "source": "mock_data"
+    },
+    {
+      "id": "1234513",
+      "text": "This is a mock tweet about OpenAI's latest research. GPT-4 is pushing the boundaries of what's possible with language models.",
+      "created_at": "2025-05-05 20:01:11.253565",
+      "user_name": "Mock User",
+      "user_screen_name": "mock_user_13",
+      "user_verified": true,
+      "retweet_count": 42,
+      "favorite_count": 100,
+      "hashtags": [
+        "AI",
+        "Tech"
+      ],
+      "urls": [
+        "https://example.com"
+      ],
+      "mentions": [
+        "OpenAI"
+      ],
+      "url": "https://twitter.com/mock_user_13/status/1234513",
+      "language": "en",
+      "source": "mock_data"
+    },
+    {
+      "id": "1234514",
+      "text": "This is a mock tweet about OpenAI's latest research. GPT-4 is pushing the boundaries of what's possible with language models.",
+      "created_at": "2025-05-05 20:01:11.253565",
+      "user_name": "Mock User",
+      "user_screen_name": "mock_user_14",
+      "user_verified": true,
+      "retweet_count": 42,
+      "favorite_count": 100,
+      "hashtags": [
+        "AI",
+        "Tech"
+      ],
+      "urls": [
+        "https://example.com"
+      ],
+      "mentions": [
+        "OpenAI"
+      ],
+      "url": "https://twitter.com/mock_user_14/status/1234514",
+      "language": "en",
+      "source": "mock_data"
+    }
+  ],
+  "total_tweets_found": 15,
+  "execution_time": 1.5,
+  "accounts_analyzed": [
+    "OpenAI",
+    "DeepLearningAI"
+  ]
+}

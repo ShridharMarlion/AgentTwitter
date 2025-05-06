@@ -12,7 +12,7 @@ import uvicorn
 
 from config import settings
 from database import connect_to_mongodb, close_mongodb_connection
-from models import UserQuery, AgentExecution, AgentLog, NewsItem
+from models import UserQuery, AgentExecution, AgentLog, NewsItem    
 from orchestration import NewsEditorialOrchestrator
 
 
@@ -23,13 +23,21 @@ app = FastAPI(
     version="1.0.0"
 )
 
+origins = [
+    "http://localhost:3000",
+    "http://localhost:8000",
+    "http://localhost:5173",
+    "http://localhost:5174",
+    "http://localhost:5175",
+]
+
 # Add CORS middleware
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],  # In production, replace with specific origins
     allow_credentials=True,
     allow_methods=["*"],
-    allow_headers=["*"],
+    allow_headers=["GET", "POST", "PUT", "DELETE"],
 )
 
 # Initialize orchestrator

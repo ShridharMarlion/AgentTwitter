@@ -1,0 +1,341 @@
+{
+  "user_query": "pahalgam Modi",
+  "timestamp": "2025-05-06T18:46:11.261131",
+  "prompt_enhancer_result": {
+    "core_topic": "",
+    "keywords": [],
+    "hashtags": [],
+    "accounts": [],
+    "search_query": "pahalgam Modi",
+    "rationale": "",
+    "original_query": "pahalgam Modi",
+    "execution_time": 7.529330492019653
+  },
+  "tweets_data": {
+    "total_tweets_found": 20,
+    "keyword_tweets_count": 20,
+    "hashtag_tweets_count": 0,
+    "account_tweets_count": 0
+  },
+  "x_interface_result": {
+    "top_keywords": [
+      {
+        "keyword": "pahalgam",
+        "frequency": 19,
+        "relevance_score": 0.95
+      },
+      {
+        "keyword": "attack",
+        "frequency": 16,
+        "relevance_score": 0.8
+      },
+      {
+        "keyword": "modi",
+        "frequency": 13,
+        "relevance_score": 0.65
+      },
+      {
+        "keyword": "india",
+        "frequency": 11,
+        "relevance_score": 0.55
+      },
+      {
+        "keyword": "modis",
+        "frequency": 7,
+        "relevance_score": 0.35
+      },
+      {
+        "keyword": "kharge",
+        "frequency": 6,
+        "relevance_score": 0.3
+      },
+      {
+        "keyword": "terror",
+        "frequency": 5,
+        "relevance_score": 0.25
+      },
+      {
+        "keyword": "security",
+        "frequency": 5,
+        "relevance_score": 0.25
+      },
+      {
+        "keyword": "days",
+        "frequency": 5,
+        "relevance_score": 0.25
+      },
+      {
+        "keyword": "what",
+        "frequency": 5,
+        "relevance_score": 0.25
+      }
+    ],
+    "top_accounts": [],
+    "trending_hashtags": [
+      {
+        "hashtag": "#IndiaPakistanWar",
+        "frequency": 2,
+        "trending_score": 0.2
+      },
+      {
+        "hashtag": "#India",
+        "frequency": 2,
+        "trending_score": 0.2
+      },
+      {
+        "hashtag": "#mockdrills",
+        "frequency": 2,
+        "trending_score": 0.2
+      },
+      {
+        "hashtag": "#IndiaPakistanTensions",
+        "frequency": 1,
+        "trending_score": 0.1
+      },
+      {
+        "hashtag": "#matura2025",
+        "frequency": 1,
+        "trending_score": 0.1
+      },
+      {
+        "hashtag": "#IndiaUpfront",
+        "frequency": 1,
+        "trending_score": 0.1
+      },
+      {
+        "hashtag": "#IndiaPakistanTension",
+        "frequency": 1,
+        "trending_score": 0.1
+      },
+      {
+        "hashtag": "#mockdrill",
+        "frequency": 1,
+        "trending_score": 0.1
+      },
+      {
+        "hashtag": "#india",
+        "frequency": 1,
+        "trending_score": 0.1
+      },
+      {
+        "hashtag": "#pahalgam",
+        "frequency": 1,
+        "trending_score": 0.1
+      }
+    ],
+    "recommended_tweets": [
+      {
+        "id": "",
+        "relevance_score": 0.04,
+        "reason": "High engagement"
+      },
+      {
+        "id": "",
+        "relevance_score": 0.01,
+        "reason": "High engagement"
+      },
+      {
+        "id": "",
+        "relevance_score": 0.01,
+        "reason": "High engagement"
+      },
+      {
+        "id": "",
+        "relevance_score": 0.0,
+        "reason": "High engagement"
+      },
+      {
+        "id": "",
+        "relevance_score": 0.0,
+        "reason": "High engagement"
+      },
+      {
+        "id": "",
+        "relevance_score": 0.0,
+        "reason": "High engagement"
+      },
+      {
+        "id": "",
+        "relevance_score": 0.0,
+        "reason": "High engagement"
+      },
+      {
+        "id": "",
+        "relevance_score": 0.0,
+        "reason": "High engagement"
+      },
+      {
+        "id": "",
+        "relevance_score": 0.0,
+        "reason": "High engagement"
+      },
+      {
+        "id": "",
+        "relevance_score": 0.0,
+        "reason": "High engagement"
+      }
+    ],
+    "content_summary": "Analysis of 20 tweets related to the topic. Top trending hashtag is #IndiaPakistanWar. ",
+    "execution_time": 0.0
+  },
+  "screening_result": {
+    "relevance_assessment": {
+      "overall_score": 0.7,
+      "explanation": "Found 20 tweets related to the query: pahalgam Modi"
+    },
+    "prioritized_content": [
+      {
+        "id": "",
+        "priority_score": 0.9,
+        "relevance_explanation": "High priority content based on engagement metrics"
+      },
+      {
+        "id": "",
+        "priority_score": 0.8,
+        "relevance_explanation": "High priority content based on engagement metrics"
+      },
+      {
+        "id": "",
+        "priority_score": 0.7,
+        "relevance_explanation": "High priority content based on engagement metrics"
+      },
+      {
+        "id": "",
+        "priority_score": 0.6,
+        "relevance_explanation": "High priority content based on engagement metrics"
+      },
+      {
+        "id": "",
+        "priority_score": 0.5,
+        "relevance_explanation": "High priority content based on engagement metrics"
+      }
+    ],
+    "content_gaps": [
+      {
+        "missing_aspect": "Explore trending hashtags for more context",
+        "importance": "medium",
+        "recommended_sources": [
+          "#IndiaPakistanWar",
+          "#India",
+          "#mockdrills"
+        ]
+      }
+    ],
+    "credibility_assessment": {
+      "overall_score": 0.75,
+      "flagged_content": []
+    },
+    "recommendations": {
+      "proceed_with_analysis": true,
+      "focus_areas": [
+        "Analysis of high-engagement content",
+        "Verification of information"
+      ]
+    },
+    "execution_time": 0.0
+  },
+  "detailed_analysis_result": {
+    "main_findings": {
+      "key_story_elements": [
+        "Information about pahalgam Modi"
+      ],
+      "primary_perspectives": [
+        "General public reactions"
+      ],
+      "credibility_assessment": "Mixed credibility, requires verification"
+    },
+    "detailed_analysis": {
+      "dominant_narratives": [
+        {
+          "narrative": "Discussion about pahalgam Modi",
+          "supporting_content": [
+            "",
+            "",
+            ""
+          ],
+          "counter_perspectives": [
+            "Diverse opinions expressed"
+          ]
+        }
+      ],
+      "sentiment_analysis": {
+        "overall": "mixed",
+        "breakdown": {
+          "positive": 0.4,
+          "negative": 0.3,
+          "neutral": 0.3
+        },
+        "notable_emotional_themes": [
+          "interest",
+          "concern"
+        ]
+      }
+    },
+    "comment_analysis": {
+      "positive_comments": [
+        {
+          "comment_summary": "Positive feedback from ",
+          "relevance_to_topic": "high",
+          "impact_assessment": "Potentially influential due to high engagement"
+        },
+        {
+          "comment_summary": "Positive feedback from ",
+          "relevance_to_topic": "high",
+          "impact_assessment": "Potentially influential due to high engagement"
+        }
+      ],
+      "negative_comments": [
+        {
+          "comment_summary": "Critical perspective from ",
+          "relevance_to_topic": "medium",
+          "impact_assessment": "Represents alternative viewpoint"
+        },
+        {
+          "comment_summary": "Critical perspective from ",
+          "relevance_to_topic": "medium",
+          "impact_assessment": "Represents alternative viewpoint"
+        }
+      ],
+      "notable_discussions": [
+        {
+          "topic": "pahalgam Modi",
+          "summary": "Various perspectives being shared on social media",
+          "participant_types": [
+            "general public",
+            "journalists"
+          ]
+        }
+      ]
+    },
+    "editorial_recommendations": {
+      "news_value_assessment": "Medium",
+      "suggested_angles": [
+        {
+          "angle": "Analysis of public response to pahalgam Modi",
+          "rationale": "High engagement indicates public interest",
+          "supporting_content": [
+            "",
+            ""
+          ]
+        }
+      ],
+      "verification_needs": [
+        {
+          "claim": "Primary claims about pahalgam Modi",
+          "importance": "high",
+          "potential_sources": [
+            "Official statements",
+            "Expert interviews"
+          ]
+        }
+      ]
+    },
+    "execution_time": 0.0
+  },
+  "execution_time": 54.79162096977234,
+  "mongodb_save_result": {
+    "status": "warning",
+    "message": "No filtered tweets to save",
+    "count": 0
+  }
+}

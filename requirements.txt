@@ -20,19 +20,21 @@ motor==3.3.2
 beanie==1.25.0
 
 # Social Media Scraping
-# git+https://github.com/JustAnotherArchivist/snscrape.git
-# ntscraper==0.3.18
-beautifulsoup4==4.12.2
 requests==2.31.0
+beautifulsoup4==4.12.2
 
 # Vector Database for RAG
 chromadb==0.4.22
 langchain-community
 
-# Utils
-tqdm==4.66.1
+# Visualization and Data Processing
+matplotlib==3.8.2
+seaborn==0.13.1
 pandas==2.2.0
 numpy==1.26.3
+
+# Utils
+tqdm==4.66.1
 pyyaml==6.0.1
 python-multipart==0.0.9
 aiohttp==3.9.3

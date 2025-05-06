@@ -1,0 +1,41 @@
+{
+  "total_users": 10,
+  "verified_users": 0,
+  "blue_verified_users": 4,
+  "engagement": {
+    "total_followers": 40966429,
+    "avg_followers": 4096642.9
+  },
+  "top_users": [
+    {
+      "name": "Amit Shah",
+      "screen_name": "AmitShah",
+      "followers": 36637508,
+      "verified": false
+    },
+    {
+      "name": "Office of Amit Shah",
+      "screen_name": "AmitShahOffice",
+      "followers": 4086258,
+      "verified": false
+    },
+    {
+      "name": "Hardik Bhavsar",
+      "screen_name": "Bitt2DA",
+      "followers": 183866,
+      "verified": false
+    },
+    {
+      "name": "Neetu Garg",
+      "screen_name": "NeetuGarg6",
+      "followers": 56153,
+      "verified": false
+    },
+    {
+      "name": "Amit Shah",
+      "screen_name": "amitshah_k",
+      "followers": 1106,
+      "verified": false
+    }
+  ]
+}

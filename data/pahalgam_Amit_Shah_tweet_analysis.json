@@ -1,0 +1,57 @@
+{
+  "total_tweets": 9,
+  "date_range": {
+    "oldest": "Fri May 02 06:56:06 +0000 2025",
+    "newest": "Wed Apr 23 04:18:35 +0000 2025"
+  },
+  "engagement": {
+    "total_retweets": 4807,
+    "total_likes": 14200,
+    "avg_retweets": 534.1111111111111,
+    "avg_likes": 1577.7777777777778
+  },
+  "top_tweets": [
+    {
+      "text": "They don't have guts to question Modi or Amit Shah \n\nThat's why they're targeting muslims who have absolutely nothing to do with Pahalgam terrorist attack\n\nHindutva supporters are doing exactly what those terrorists intended. \nhttps://t.co/rCMZXvzOHF",
+      "user": "TARUNspeakss",
+      "retweets": 1785,
+      "likes": 5681
+    },
+    {
+      "text": "Amit Shah not only failed in stopping Terr0r attacks in Kashmir, he also misguided rest of India for politics\n\nHe literally threw innocent tourists in front of Terr0rists without any security\n\nHe is unfit to be HM, he must resign \ud83d\ude4c\n\n#PahalgamTerroristAttack #Pahalgam https://t.co/UbsNgA0XcF",
+      "user": "DrJain21",
+      "retweets": 1265,
+      "likes": 4505
+    },
+    {
+      "text": "BIG EXPOS\u00c9 \ud83d\udca5\n\nThe Lallantop has made a video to expos\u00e9 BJP &amp; Amit Shah's Home Ministry on Security Lapse in Pahalgam Deadliest Terror Attack.\n\nTo cover up this Negligence, #GodiMedia and the BJP IT Cell are trying to create Hindu-Muslim tensions to keep people distracted.\n\nDo\u2026 https://t.co/iNcl5VlqtG",
+      "user": "tanmoyofc",
+      "retweets": 1504,
+      "likes": 3293
+    },
+    {
+      "text": "Narendra Modi should immediately \nsack Home Minister Amit Shah for the security lapse and intelligence failure in the Terrorist attack in Pahalgam that claimed 27 innocent lives .\n\nWho All Agree ? https://t.co/wbYPbJ5qSX",
+      "user": "RavinderKapur2",
+      "retweets": 137,
+      "likes": 411
+    },
+    {
+      "text": "High level meeting going on, LG &amp; Omar Abdullah briefing Home Minister Amit Shah ji on Pahalgam terror attack.\n\nThe only order Amit Shah Ji should give is, go out and kill terrorist and terrorist supporters, blow out the Mosques, Madrasa, Houses, or any safe heaven immediately\u2026 https://t.co/PDGsE57qyP",
+      "user": "SouleFacts",
+      "retweets": 53,
+      "likes": 215
+    }
+  ],
+  "sentiment": {
+    "counts": {
+      "positive": 0,
+      "neutral": 2,
+      "negative": 7
+    },
+    "percentages": {
+      "positive": 0.0,
+      "neutral": 22.2,
+      "negative": 77.8
+    }
+  }
+}

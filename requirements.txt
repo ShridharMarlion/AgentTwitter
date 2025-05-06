@@ -20,8 +20,8 @@ motor==3.3.2
 beanie==1.25.0
 
 # Social Media Scraping
-git+https://github.com/JustAnotherArchivist/snscrape.git
-ntscraper==0.3.18
+# git+https://github.com/JustAnotherArchivist/snscrape.git
+# ntscraper==0.3.18
 beautifulsoup4==4.12.2
 requests==2.31.0
 

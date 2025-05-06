@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 """
-Analyze "pahalgam Modi" using the Multi-Agent Twitter Analysis workflow
+Analyze "Query" using the Multi-Agent Twitter Analysis workflow
 
 This script runs the multi-agent workflow specifically for analyzing tweets about
-"pahalgam Modi" and saves the results to MongoDB and CSV files.
+"Query" and saves the results to MongoDB and CSV files.
 """
 
 import os
@@ -23,7 +23,7 @@ DB_NAME = "news_dashboard"
 TWEETS_COLLECTION = "ai_crafted_tweets"
 
 # Set the user query
-USER_QUERY = "pahalgam Modi"
+USER_QUERY = "feminism in india"
 
 # Configure RapidAPI key (get from environment or set directly)
 # API_KEY = os.environ.get("RAPIDAPI_KEY", "1b7fbde713msh01b13c842873aa5p1d82afjsna4a1f70b0ab0")
@@ -42,7 +42,7 @@ async def main():
         mongo_uri=MONGO_URI,
         db_name=DB_NAME,
         tweets_collection=TWEETS_COLLECTION,
-        max_tweets=200,  # Increased to get more tweets
+        max_tweets=500,  # Increased to get more tweets
         verbose=True,
         agent_logging_enabled=False,  # Disable agent logging to avoid beanie errors
         save_all_tweets=True  # Save all tweets regardless of screening
@@ -53,7 +53,7 @@ async def main():
     
     # Save detailed results to a timestamped JSON file
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    results_file = f"pahalgam_modi_results_{timestamp}.json"
+    results_file = f"{USER_QUERY}_results_{timestamp}.json"
     
     with open(results_file, "w") as f:
         json.dump(results, f, indent=2, default=str)

@@ -136,7 +136,7 @@ class TwitterScraper:
                             if len(tweets) > 0:
                                 print("\nSample tweet structure:")
                                 sample_tweet = tweets[0]
-                                print(json.dumps(sample_tweet, indent=2, default=str)[:1000] + "...")
+                                # print(json.dumps(sample_tweet, indent=2, default=str)[:1000] + "...")
                             
                             return tweets
                     

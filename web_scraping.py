@@ -12,7 +12,7 @@ from src.agents.base import BaseAgent
 from models import AgentType, AgentStatus, Tweet
 
 
-class WebScrapingAgent(BaseAgent):
+class NoUseAgent(BaseAgent):
     """Agent for scraping social media data using Snscrape and Ntscraper."""
     
     def __init__(

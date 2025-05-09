@@ -1,0 +1,16 @@
+{
+  "max_tweets": 500,
+  "api_key": "1b7fbde713msh01b13c842873aa5p1d82afjsna4a1f70b0ab0",
+  "mongo_uri": "mongodb://localhost:27017/",
+  "db_name": "news_dashboard",
+  "tweets_collection": "ai_crafted_tweets",
+  "save_all_tweets": true,
+  "type": "Latest",
+  "limit": 500,
+  "delay_between_calls": 2,
+  "query": "Tamilnadu Economy 2025 with IT sector",
+  "results": {},
+  "errors": {
+    "prompt_enhancer": "the JSON object must be str, bytes or bytearray, not NoneType"
+  }
+}

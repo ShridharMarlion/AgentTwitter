@@ -1,0 +1,149 @@
+execution_id,step,error,timestamp
+681e067c32ba27d7ee7fbd2c,orchestration_planning,"1 validation error for AgentLog
+agent_type
+  Field required [type=missing, input_value={'execution_id': '681e067... 9, 19, 13, 43, 108718)}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing",2025-05-09T19:13:43.108718
+681e068f32ba27d7ee7fbd2d,run,"2 validation errors for AgentLog
+execution_id
+  Input should be a valid string [type=string_type, input_value=ObjectId('681e068f32ba27d7ee7fbd2d'), input_type=PydanticObjectId]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+agent_type
+  Field required [type=missing, input_value={'execution_id': ObjectId..., 9, 19, 14, 0, 936193)}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing",2025-05-09T19:14:00.936193
+681e06a432ba27d7ee7fbd2f,run,"2 validation errors for AgentLog
+execution_id
+  Input should be a valid string [type=string_type, input_value=ObjectId('681e06a432ba27d7ee7fbd2f'), input_type=PydanticObjectId]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+agent_type
+  Field required [type=missing, input_value={'execution_id': ObjectId... 9, 19, 14, 17, 174130)}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing",2025-05-09T19:14:17.175131
+681e06b132ba27d7ee7fbd31,run,"2 validation errors for AgentLog
+execution_id
+  Input should be a valid string [type=string_type, input_value=ObjectId('681e06b132ba27d7ee7fbd31'), input_type=PydanticObjectId]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+agent_type
+  Field required [type=missing, input_value={'execution_id': ObjectId... 9, 19, 14, 27, 657806)}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing",2025-05-09T19:14:27.657806
+681e08e3a3da280046dff2b9,orchestration_planning,"1 validation error for AgentLog
+agent_type
+  Field required [type=missing, input_value={'execution_id': '681e08e..., 9, 19, 24, 1, 795439)}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing",2025-05-09T19:24:01.795439
+681e08f9a3da280046dff2ba,run,"2 validation errors for AgentLog
+execution_id
+  Input should be a valid string [type=string_type, input_value=ObjectId('681e08f9a3da280046dff2ba'), input_type=PydanticObjectId]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+agent_type
+  Field required [type=missing, input_value={'execution_id': ObjectId... 9, 19, 24, 14, 763918)}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing",2025-05-09T19:24:14.764918
+681e0909a3da280046dff2bc,run,"2 validation errors for AgentLog
+execution_id
+  Input should be a valid string [type=string_type, input_value=ObjectId('681e0909a3da280046dff2bc'), input_type=PydanticObjectId]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+agent_type
+  Field required [type=missing, input_value={'execution_id': ObjectId... 9, 19, 24, 29, 376009)}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing",2025-05-09T19:24:29.377009
+681e10d371ad6c40f392519b,orchestration_planning,"1 validation error for AgentLog
+agent_type
+  Field required [type=missing, input_value={'execution_id': '681e10d...5, 9, 19, 57, 51, 1122)}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing",2025-05-09T19:57:51.001122
+681e110f0fe2c9769b6d6ed6,orchestration_planning,"1 validation error for AgentLog
+agent_type
+  Field required [type=missing, input_value={'execution_id': '681e110... 9, 19, 58, 48, 892955)}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing",2025-05-09T19:58:48.893955
+681e11200fe2c9769b6d6ed7,run,"2 validation errors for AgentLog
+execution_id
+  Input should be a valid string [type=string_type, input_value=ObjectId('681e11200fe2c9769b6d6ed7'), input_type=PydanticObjectId]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+agent_type
+  Field required [type=missing, input_value={'execution_id': ObjectId..., 9, 19, 59, 3, 200122)}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing",2025-05-09T19:59:03.201686
+681e12a13fe46be1d4b47aa6,orchestration_planning,"1 validation error for AgentLog
+agent_type
+  Field required [type=missing, input_value={'execution_id': '681e12a..., 9, 20, 5, 33, 644161)}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing",2025-05-09T20:05:33.645162
+681e12b53fe46be1d4b47aa7,run,"2 validation errors for AgentLog
+execution_id
+  Input should be a valid string [type=string_type, input_value=ObjectId('681e12b53fe46be1d4b47aa7'), input_type=PydanticObjectId]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+agent_type
+  Field required [type=missing, input_value={'execution_id': ObjectId..., 9, 20, 5, 52, 787197)}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing",2025-05-09T20:05:52.788196
+681e12cc3fe46be1d4b47aa8,run,"2 validation errors for AgentLog
+execution_id
+  Input should be a valid string [type=string_type, input_value=ObjectId('681e12cc3fe46be1d4b47aa8'), input_type=PydanticObjectId]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+agent_type
+  Field required [type=missing, input_value={'execution_id': ObjectId...5, 9, 20, 6, 6, 437310)}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing",2025-05-09T20:06:06.437310
+681e12d63fe46be1d4b47aa9,orchestration_planning,"1 validation error for AgentLog
+agent_type
+  Field required [type=missing, input_value={'execution_id': '681e12d...5, 9, 20, 6, 23, 69171)}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing",2025-05-09T20:06:23.070171
+681e12e73fe46be1d4b47aaa,run,"2 validation errors for AgentLog
+execution_id
+  Input should be a valid string [type=string_type, input_value=ObjectId('681e12e73fe46be1d4b47aaa'), input_type=PydanticObjectId]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+agent_type
+  Field required [type=missing, input_value={'execution_id': ObjectId..., 9, 20, 6, 39, 462627)}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing",2025-05-09T20:06:39.463635
+681e12fa3fe46be1d4b47aab,run,"2 validation errors for AgentLog
+execution_id
+  Input should be a valid string [type=string_type, input_value=ObjectId('681e12fa3fe46be1d4b47aab'), input_type=PydanticObjectId]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+agent_type
+  Field required [type=missing, input_value={'execution_id': ObjectId..., 9, 20, 6, 56, 666403)}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing",2025-05-09T20:06:56.667403
+681e13083fe46be1d4b47aac,orchestration_planning,"1 validation error for AgentLog
+agent_type
+  Field required [type=missing, input_value={'execution_id': '681e130..., 9, 20, 7, 16, 279915)}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing",2025-05-09T20:07:16.279915
+681e131c3fe46be1d4b47aad,run,"2 validation errors for AgentLog
+execution_id
+  Input should be a valid string [type=string_type, input_value=ObjectId('681e131c3fe46be1d4b47aad'), input_type=PydanticObjectId]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+agent_type
+  Field required [type=missing, input_value={'execution_id': ObjectId..., 9, 20, 7, 29, 247657)}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing",2025-05-09T20:07:29.247657
+681e132c3fe46be1d4b47aae,run,"2 validation errors for AgentLog
+execution_id
+  Input should be a valid string [type=string_type, input_value=ObjectId('681e132c3fe46be1d4b47aae'), input_type=PydanticObjectId]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+agent_type
+  Field required [type=missing, input_value={'execution_id': ObjectId..., 9, 20, 7, 43, 482769)}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing",2025-05-09T20:07:43.483772
+681e13373fe46be1d4b47aaf,orchestration_planning,"1 validation error for AgentLog
+agent_type
+  Field required [type=missing, input_value={'execution_id': '681e133...5, 9, 20, 8, 3, 731766)}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing",2025-05-09T20:08:03.732765
+681e134b3fe46be1d4b47ab0,run,"2 validation errors for AgentLog
+execution_id
+  Input should be a valid string [type=string_type, input_value=ObjectId('681e134b3fe46be1d4b47ab0'), input_type=PydanticObjectId]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+agent_type
+  Field required [type=missing, input_value={'execution_id': ObjectId..., 9, 20, 8, 18, 131234)}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing",2025-05-09T20:08:18.132235
+681e135d3fe46be1d4b47ab1,run,"2 validation errors for AgentLog
+execution_id
+  Input should be a valid string [type=string_type, input_value=ObjectId('681e135d3fe46be1d4b47ab1'), input_type=PydanticObjectId]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+agent_type
+  Field required [type=missing, input_value={'execution_id': ObjectId..., 9, 20, 8, 33, 256465)}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing",2025-05-09T20:08:33.257465
+681e13693fe46be1d4b47ab2,orchestration_planning,"1 validation error for AgentLog
+agent_type
+  Field required [type=missing, input_value={'execution_id': '681e136..., 9, 20, 8, 50, 654519)}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing",2025-05-09T20:08:50.655517
+681e137a3fe46be1d4b47ab3,run,"2 validation errors for AgentLog
+execution_id
+  Input should be a valid string [type=string_type, input_value=ObjectId('681e137a3fe46be1d4b47ab3'), input_type=PydanticObjectId]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+agent_type
+  Field required [type=missing, input_value={'execution_id': ObjectId... 5, 9, 20, 9, 9, 34794)}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing",2025-05-09T20:09:09.035794
+681e13903fe46be1d4b47ab4,run,"2 validation errors for AgentLog
+execution_id
+  Input should be a valid string [type=string_type, input_value=ObjectId('681e13903fe46be1d4b47ab4'), input_type=PydanticObjectId]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_type
+agent_type
+  Field required [type=missing, input_value={'execution_id': ObjectId..., 9, 20, 9, 23, 403746)}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing",2025-05-09T20:09:23.404745

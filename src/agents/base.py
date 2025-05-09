@@ -1,6 +1,8 @@
 import time
+import json
 from abc import ABC, abstractmethod
 from typing import Any, Dict, List, Optional, Union, Tuple
+from datetime import datetime
 
 from langchain.chains import LLMChain
 from langchain.prompts import PromptTemplate
@@ -55,6 +57,16 @@ class LLMFactory:
                 raise ValueError("OPENAI_API_KEY is not set")
             return ChatOpenAI(
                 api_key=settings.OPENAI_API_KEY,
+                model=model,
+                temperature=temperature,
+                streaming=streaming
+            )
+        
+        elif provider == "deepinfra":
+            if not settings.DEEPINFRA_API_KEY:
+                raise ValueError("DEEPINFRA_API_KEY is not set")
+            return BaseChatModel(
+                api_key=settings.DEEPINFRA_API_KEY,
                 model=model,
                 temperature=temperature,
                 streaming=streaming
@@ -213,46 +225,73 @@ class BaseAgent(ABC):
         
         return execution
     
-    async def _log_step(
-        self,
-        execution_id: str,
-        step: str,
-        input_data: Dict[str, Any],
-        output_data: Dict[str, Any],
-        execution_time: float,
-        notes: Optional[str] = None
-    ) -> AgentLog:
-        """Log a step in the agent execution.
-        
-        Args:
-            execution_id: The ID of the execution record
-            step: The step name
-            input_data: The input data
-            output_data: The output data
-            execution_time: The execution time in seconds
-            notes: Any additional notes
-        
-        Returns:
-            The created log record
-        """
-        if not self.logging_enabled:
-            return None
-        
-        # Create a new log record
-        log = AgentLog(
-            execution_id=execution_id,
-            agent_type=self.agent_type,
-            step=step,
-            input_data=input_data,
-            output_data=output_data,
-            execution_time=execution_time,
-            notes=notes
-        )
-        
-        # Save to database
-        await log.save()
-        
-        return log
+    async def _log_step(self, execution_id: str, step: str, input_data: Dict[str, Any], output_data: Dict[str, Any], execution_time: float, notes: str = "") -> None:
+        """Log a step in the agent execution."""
+        try:
+            # Ensure input_data and output_data are dictionaries
+            if isinstance(input_data, str):
+                try:
+                    input_data = json.loads(input_data)
+                except json.JSONDecodeError:
+                    input_data = {"raw_input": input_data}
+            
+            if isinstance(output_data, str):
+                try:
+                    output_data = json.loads(output_data)
+                except json.JSONDecodeError:
+                    output_data = {"raw_output": output_data}
+
+            # Create log entry
+            log_entry = AgentLog(
+                execution_id=execution_id,
+                step=step,
+                input_data=input_data,
+                output_data=output_data,
+                execution_time=execution_time,
+                notes=notes,
+                timestamp=datetime.now()
+            )
+
+            # Save to database
+            await log_entry.save()
+
+        except Exception as e:
+            logger.error(f"Failed to log step: {str(e)}")
+            # Save error to CSV log
+            self._save_error_to_csv(execution_id, step, str(e))
+
+    def _save_error_to_csv(self, execution_id: str, step: str, error: str) -> None:
+        """Save error to CSV log file."""
+        try:
+            import csv
+            from pathlib import Path
+            import os
+
+            # Create logs directory if it doesn't exist
+            log_dir = Path("logs")
+            log_dir.mkdir(exist_ok=True)
+
+            # CSV file path
+            csv_file = log_dir / "agent_errors_log.csv"
+            file_exists = os.path.isfile(csv_file)
+
+            # Prepare row data
+            row = {
+                "execution_id": execution_id,
+                "step": step,
+                "error": error,
+                "timestamp": datetime.now().isoformat()
+            }
+
+            # Write to CSV
+            with open(csv_file, mode='a', newline='', encoding='utf-8') as f:
+                writer = csv.DictWriter(f, fieldnames=row.keys())
+                if not file_exists:
+                    writer.writeheader()
+                writer.writerow(row)
+
+        except Exception as e:
+            logger.error(f"Error saving to error CSV log: {str(e)}")
 
 
 class TaskAgent(BaseAgent):
@@ -283,8 +322,7 @@ class TaskAgent(BaseAgent):
             model=model,
             temperature=temperature,
             logging_enabled=logging_enabled
-        )
-        self.system_prompt = system_prompt
+        )        self.system_prompt = system_prompt
     
     async def run(self, human_input: str, **kwargs) -> Dict[str, Any]:
         """Run the agent with the given input.

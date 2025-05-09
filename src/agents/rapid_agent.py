@@ -571,7 +571,7 @@ class TwitterScraper:
             }
             
             # Debug tweet structure
-            print(f"Tweet keys: {list(tweet_data.keys())}")
+            # print(f"Tweet keys: {list(tweet_data.keys())}")
             
             # Handle the complex nested structure from Twitter241 API
             
@@ -587,7 +587,7 @@ class TwitterScraper:
             legacy_data = None
             if "legacy" in tweet_data:
                 legacy_data = tweet_data["legacy"]
-                print(f"Legacy keys: {list(legacy_data.keys())}")
+                # print(f"Legacy keys: {list(legacy_data.keys())}")
                 
                 # Text content
                 if "full_text" in legacy_data:
@@ -976,10 +976,10 @@ if __name__ == "__main__":
     
     # Test API if requested
     if args.test_api:
-        print("Testing RapidAPI Twitter Endpoint...")
+        print("Testing RapidAPI...")
         # List available endpoints
         try:
-            test_url = "https://twitter241.p.rapidapi.com/endpoints"
+            test_url = "https://twitter241.p.rapidapi.com"
             response = requests.get(
                 test_url,
                 headers=scraper.headers

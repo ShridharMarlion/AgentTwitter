@@ -1,0 +1,118 @@
+{
+  "user_query": "Tamilnadu Economy 2025 with IT sector",
+  "timestamp": "2025-05-09T20:10:46.696543",
+  "prompt_enhancer_result": {
+    "core_topic": "Tamilnadu Economy 2025 with IT sector",
+    "keywords": [
+      "Tamilnadu Economy 2025 with IT sector"
+    ],
+    "hashtags": [],
+    "accounts": [],
+    "search_query": "Tamilnadu Economy 2025 with IT sector",
+    "rationale": "Fallback due to agent failure",
+    "original_query": "Tamilnadu Economy 2025 with IT sector"
+  },
+  "tweets_data": {
+    "total_tweets_found": 0,
+    "keyword_tweets_count": 0,
+    "hashtag_tweets_count": 0,
+    "account_tweets_count": 0
+  },
+  "x_interface_result": {
+    "top_keywords": [],
+    "top_accounts": [],
+    "trending_hashtags": [],
+    "recommended_tweets": [],
+    "content_summary": "No tweets found to analyze"
+  },
+  "screening_result": {
+    "relevance_assessment": {
+      "overall_score": 0.3,
+      "explanation": "Found 0 tweets related to the query: Tamilnadu Economy 2025 with IT sector"
+    },
+    "prioritized_content": [],
+    "content_gaps": [
+      {
+        "missing_aspect": "Insufficient tweet volume",
+        "importance": "high",
+        "recommended_sources": [
+          "Use more generic keywords",
+          "Try related hashtags"
+        ]
+      }
+    ],
+    "credibility_assessment": {
+      "overall_score": 0.75,
+      "flagged_content": []
+    },
+    "recommendations": {
+      "proceed_with_analysis": false,
+      "focus_areas": [
+        "Analysis of high-engagement content",
+        "Verification of information"
+      ]
+    },
+    "execution_time": 0.0
+  },
+  "detailed_analysis_result": {
+    "main_findings": {
+      "key_story_elements": [
+        "Information about Tamilnadu Economy 2025 with IT sector"
+      ],
+      "primary_perspectives": [
+        "General public reactions"
+      ],
+      "credibility_assessment": "Mixed credibility, requires verification"
+    },
+    "detailed_analysis": {
+      "dominant_narratives": [],
+      "sentiment_analysis": {
+        "overall": "mixed",
+        "breakdown": {
+          "positive": 0.4,
+          "negative": 0.3,
+          "neutral": 0.3
+        },
+        "notable_emotional_themes": [
+          "interest",
+          "concern"
+        ]
+      }
+    },
+    "comment_analysis": {
+      "positive_comments": [],
+      "negative_comments": [],
+      "notable_discussions": [
+        {
+          "topic": "Tamilnadu Economy 2025 with IT sector",
+          "summary": "Various perspectives being shared on social media",
+          "participant_types": [
+            "general public",
+            "journalists"
+          ]
+        }
+      ]
+    },
+    "editorial_recommendations": {
+      "news_value_assessment": "Medium",
+      "suggested_angles": [],
+      "verification_needs": [
+        {
+          "claim": "Primary claims about Tamilnadu Economy 2025 with IT sector",
+          "importance": "high",
+          "potential_sources": [
+            "Official statements",
+            "Expert interviews"
+          ]
+        }
+      ]
+    },
+    "execution_time": 0.0
+  },
+  "execution_time": 32.25716710090637,
+  "mongodb_save_result": {
+    "status": "warning",
+    "message": "No filtered tweets to save",
+    "count": 0
+  }
+}

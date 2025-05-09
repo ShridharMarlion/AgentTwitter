@@ -1,7 +1,7 @@
 import asyncio
 import json
 import time
-from src.agents.web_scraping import WebScrapingAgent
+from web_scraping import WebScrapingAgent
 
 # Create coroutine placeholders that can be awaited
 async def dummy_coroutine(*args, **kwargs):

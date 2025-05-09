@@ -23,6 +23,7 @@ class Settings(BaseSettings):
     MONGODB_DB_NAME: str = Field(default="news_dashboard")
     
     # API Keys for LLM services
+    # DEEPINFRA_API_KEY: Optional[str] = Field(default=None)
     OPENAI_API_KEY: Optional[str] = Field(default=None)
     ANTHROPIC_API_KEY: Optional[str] = Field(default=None)
     GOOGLE_API_KEY: Optional[str] = Field(default=None)
@@ -31,7 +32,12 @@ class Settings(BaseSettings):
     
     # Default LLM settings
     DEFAULT_LLM_PROVIDER: str = Field(default="openai")
-    DEFAULT_LLM_MODEL: str = Field(default="gpt-4-turbo")
+    DEFAULT_LLM_MODEL: str = Field(default="gpt-4o")
+
+    # DEFAULT_LLM_PROVIDER: str = Field(default="deepinfra")
+    # DEFAULT_LLM_MODEL: str = Field(default="meta-llama/Meta-Llama-3-8B-Instruct")
+
+
     
     # Agent settings
     MAX_ITERATIONS: int = Field(default=5)
@@ -52,6 +58,7 @@ class Settings(BaseSettings):
     # LLM Provider models mapping
     LLM_PROVIDER_MODELS: Dict[str, List[str]] = Field(
         default={
+            # "deepinfra": ["meta-llama/Meta-Llama-3-8B-Instruct"],
             "openai": ["gpt-3.5-turbo", "gpt-4-turbo", "gpt-4o"],
             "anthropic": ["claude-3-opus-20240229", "claude-3-sonnet-20240229", "claude-3-haiku-20240307"],
             "google": ["gemini-pro", "gemini-1.5-pro", "gemini-1.5-flash"],

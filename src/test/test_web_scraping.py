@@ -1,6 +1,6 @@
 import asyncio
 import json
-from src.agents.web_scraping import WebScrapingAgent
+from web_scraping import WebScrapingAgent
 from database import init_mongodb
 from loguru import logger
 

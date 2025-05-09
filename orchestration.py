@@ -15,7 +15,7 @@ from src.agents.prompt_enhancer import PromptEnhancerAgent
 from config import settings
 from models import UserQuery, AgentType, AgentExecution, AgentStatus, AgentLog
 # from agents.prompt_enhancer import PromptEnhancerAgent
-from src.agents.web_scraping import WebScrapingAgent
+from web_scraping import WebScrapingAgent
 from src.agents.x_interface import XInterfaceAgent
 from src.agents.screening_agent import ScreeningAgent
 from src.agents.detailed_analysis import DetailedAnalysisAgent

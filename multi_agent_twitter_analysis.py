@@ -33,7 +33,7 @@ from src.agents.prompt_enhancer import PromptEnhancerAgent
 from src.agents.x_interface import XInterfaceAgent
 from src.agents.screening_agent import ScreeningAgent
 from src.agents.detailed_analysis import DetailedAnalysisAgent
-from src.scrap.rapid import TwitterScraper, test_mongodb_connection
+from src.agents.rapid_agent import TwitterScraper, test_mongodb_connection
 from models import AgentType, AgentStatus, UserQuery
 from config import settings
 

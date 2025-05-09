@@ -1,0 +1,337 @@
+{
+  "user_query": "indian economy",
+  "timestamp": "2025-05-08T14:15:10.394140",
+  "prompt_enhancer_result": {
+    "core_topic": "",
+    "keywords": [],
+    "hashtags": [],
+    "accounts": [],
+    "search_query": "indian economy",
+    "rationale": "",
+    "original_query": "indian economy",
+    "execution_time": 8.796265602111816
+  },
+  "tweets_data": {
+    "total_tweets_found": 20,
+    "keyword_tweets_count": 20,
+    "hashtag_tweets_count": 0,
+    "account_tweets_count": 0
+  },
+  "x_interface_result": {
+    "top_keywords": [
+      {
+        "keyword": "indian",
+        "frequency": 16,
+        "relevance_score": 0.8
+      },
+      {
+        "keyword": "economy",
+        "frequency": 16,
+        "relevance_score": 0.8
+      },
+      {
+        "keyword": "india",
+        "frequency": 5,
+        "relevance_score": 0.25
+      },
+      {
+        "keyword": "war",
+        "frequency": 4,
+        "relevance_score": 0.2
+      },
+      {
+        "keyword": "british",
+        "frequency": 4,
+        "relevance_score": 0.2
+      },
+      {
+        "keyword": "any",
+        "frequency": 3,
+        "relevance_score": 0.15
+      },
+      {
+        "keyword": "while",
+        "frequency": 3,
+        "relevance_score": 0.15
+      },
+      {
+        "keyword": "hit",
+        "frequency": 3,
+        "relevance_score": 0.15
+      },
+      {
+        "keyword": "businesses",
+        "frequency": 3,
+        "relevance_score": 0.15
+      },
+      {
+        "keyword": "who",
+        "frequency": 3,
+        "relevance_score": 0.15
+      }
+    ],
+    "top_accounts": [],
+    "trending_hashtags": [
+      {
+        "hashtag": "#Q4Results",
+        "frequency": 3,
+        "trending_score": 0.3
+      },
+      {
+        "hashtag": "#Dividend",
+        "frequency": 2,
+        "trending_score": 0.2
+      },
+      {
+        "hashtag": "#GHCL",
+        "frequency": 1,
+        "trending_score": 0.1
+      },
+      {
+        "hashtag": "#india",
+        "frequency": 1,
+        "trending_score": 0.1
+      },
+      {
+        "hashtag": "#AsahiSongwonColors",
+        "frequency": 1,
+        "trending_score": 0.1
+      },
+      {
+        "hashtag": "#twowheeler",
+        "frequency": 1,
+        "trending_score": 0.1
+      },
+      {
+        "hashtag": "#Haryana",
+        "frequency": 1,
+        "trending_score": 0.1
+      },
+      {
+        "hashtag": "#UNOMinda",
+        "frequency": 1,
+        "trending_score": 0.1
+      },
+      {
+        "hashtag": "#HarshaEngineersInternational",
+        "frequency": 1,
+        "trending_score": 0.1
+      }
+    ],
+    "recommended_tweets": [
+      {
+        "id": "",
+        "relevance_score": 0.04,
+        "reason": "High engagement"
+      },
+      {
+        "id": "",
+        "relevance_score": 0.02,
+        "reason": "High engagement"
+      },
+      {
+        "id": "",
+        "relevance_score": 0.01,
+        "reason": "High engagement"
+      },
+      {
+        "id": "",
+        "relevance_score": 0.0,
+        "reason": "High engagement"
+      },
+      {
+        "id": "",
+        "relevance_score": 0.0,
+        "reason": "High engagement"
+      },
+      {
+        "id": "",
+        "relevance_score": 0.0,
+        "reason": "High engagement"
+      },
+      {
+        "id": "",
+        "relevance_score": 0.0,
+        "reason": "High engagement"
+      },
+      {
+        "id": "",
+        "relevance_score": 0.0,
+        "reason": "High engagement"
+      },
+      {
+        "id": "",
+        "relevance_score": 0.0,
+        "reason": "High engagement"
+      },
+      {
+        "id": "",
+        "relevance_score": 0.0,
+        "reason": "High engagement"
+      }
+    ],
+    "content_summary": "Analysis of 20 tweets related to the topic. Top trending hashtag is #Q4Results. ",
+    "execution_time": 0.0
+  },
+  "screening_result": {
+    "relevance_assessment": {
+      "overall_score": 0.7,
+      "explanation": "Found 20 tweets related to the query: indian economy"
+    },
+    "prioritized_content": [
+      {
+        "id": "",
+        "priority_score": 0.9,
+        "relevance_explanation": "High priority content based on engagement metrics"
+      },
+      {
+        "id": "",
+        "priority_score": 0.8,
+        "relevance_explanation": "High priority content based on engagement metrics"
+      },
+      {
+        "id": "",
+        "priority_score": 0.7,
+        "relevance_explanation": "High priority content based on engagement metrics"
+      },
+      {
+        "id": "",
+        "priority_score": 0.6,
+        "relevance_explanation": "High priority content based on engagement metrics"
+      },
+      {
+        "id": "",
+        "priority_score": 0.5,
+        "relevance_explanation": "High priority content based on engagement metrics"
+      }
+    ],
+    "content_gaps": [
+      {
+        "missing_aspect": "Explore trending hashtags for more context",
+        "importance": "medium",
+        "recommended_sources": [
+          "#Q4Results",
+          "#Dividend",
+          "#GHCL"
+        ]
+      }
+    ],
+    "credibility_assessment": {
+      "overall_score": 0.75,
+      "flagged_content": []
+    },
+    "recommendations": {
+      "proceed_with_analysis": true,
+      "focus_areas": [
+        "Analysis of high-engagement content",
+        "Verification of information"
+      ]
+    },
+    "execution_time": 0.0
+  },
+  "detailed_analysis_result": {
+    "main_findings": {
+      "key_story_elements": [
+        "Information about indian economy"
+      ],
+      "primary_perspectives": [
+        "General public reactions"
+      ],
+      "credibility_assessment": "Mixed credibility, requires verification"
+    },
+    "detailed_analysis": {
+      "dominant_narratives": [
+        {
+          "narrative": "Discussion about indian economy",
+          "supporting_content": [
+            "",
+            "",
+            ""
+          ],
+          "counter_perspectives": [
+            "Diverse opinions expressed"
+          ]
+        }
+      ],
+      "sentiment_analysis": {
+        "overall": "mixed",
+        "breakdown": {
+          "positive": 0.4,
+          "negative": 0.3,
+          "neutral": 0.3
+        },
+        "notable_emotional_themes": [
+          "interest",
+          "concern"
+        ]
+      }
+    },
+    "comment_analysis": {
+      "positive_comments": [
+        {
+          "comment_summary": "Positive feedback from ",
+          "relevance_to_topic": "high",
+          "impact_assessment": "Potentially influential due to high engagement"
+        },
+        {
+          "comment_summary": "Positive feedback from ",
+          "relevance_to_topic": "high",
+          "impact_assessment": "Potentially influential due to high engagement"
+        }
+      ],
+      "negative_comments": [
+        {
+          "comment_summary": "Critical perspective from ",
+          "relevance_to_topic": "medium",
+          "impact_assessment": "Represents alternative viewpoint"
+        },
+        {
+          "comment_summary": "Critical perspective from ",
+          "relevance_to_topic": "medium",
+          "impact_assessment": "Represents alternative viewpoint"
+        }
+      ],
+      "notable_discussions": [
+        {
+          "topic": "indian economy",
+          "summary": "Various perspectives being shared on social media",
+          "participant_types": [
+            "general public",
+            "journalists"
+          ]
+        }
+      ]
+    },
+    "editorial_recommendations": {
+      "news_value_assessment": "Medium",
+      "suggested_angles": [
+        {
+          "angle": "Analysis of public response to indian economy",
+          "rationale": "High engagement indicates public interest",
+          "supporting_content": [
+            "",
+            ""
+          ]
+        }
+      ],
+      "verification_needs": [
+        {
+          "claim": "Primary claims about indian economy",
+          "importance": "high",
+          "potential_sources": [
+            "Official statements",
+            "Expert interviews"
+          ]
+        }
+      ]
+    },
+    "execution_time": 0.0
+  },
+  "execution_time": 61.306206941604614,
+  "mongodb_save_result": {
+    "status": "success",
+    "message": "Saved 20 new tweets to MongoDB",
+    "count": 20,
+    "total_filtered": 20
+  }
+}

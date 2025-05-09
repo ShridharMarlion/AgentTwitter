@@ -435,7 +435,7 @@ class AdminAgent(TaskAgent):
             Tuple of (agent result, status)
         """
         from agents.prompt_enhancer import PromptEnhancerAgent
-        from agents.web_scraping import WebScrapingAgent
+        from web_scraping import WebScrapingAgent
         from agents.x_interface import XInterfaceAgent
         from agents.screening_agent import ScreeningAgent
         from agents.detailed_analysis import DetailedAnalysisAgent

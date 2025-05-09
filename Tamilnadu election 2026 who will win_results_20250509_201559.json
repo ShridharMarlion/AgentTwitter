@@ -1,15 +1,16 @@
 {
-  "user_query": "feminism in india",
-  "timestamp": "2025-05-06T19:50:37.937883",
+  "user_query": "Tamilnadu election 2026 who will win",
+  "timestamp": "2025-05-09T20:14:52.183851",
   "prompt_enhancer_result": {
-    "core_topic": "",
-    "keywords": [],
+    "core_topic": "Tamilnadu election 2026 who will win",
+    "keywords": [
+      "Tamilnadu election 2026 who will win"
+    ],
     "hashtags": [],
     "accounts": [],
-    "search_query": "feminism in india",
-    "rationale": "",
-    "original_query": "feminism in india",
-    "execution_time": 11.165313243865967
+    "search_query": "Tamilnadu election 2026 who will win",
+    "rationale": "Fallback due to agent failure",
+    "original_query": "Tamilnadu election 2026 who will win"
   },
   "tweets_data": {
     "total_tweets_found": 20,
@@ -20,65 +21,105 @@
   "x_interface_result": {
     "top_keywords": [
       {
-        "keyword": "feminism",
+        "keyword": "2026",
         "frequency": 20,
         "relevance_score": 1.0
       },
       {
-        "keyword": "india",
-        "frequency": 19,
-        "relevance_score": 0.95
+        "keyword": "who",
+        "frequency": 20,
+        "relevance_score": 1.0
       },
       {
-        "keyword": "women",
-        "frequency": 13,
-        "relevance_score": 0.65
+        "keyword": "win",
+        "frequency": 20,
+        "relevance_score": 1.0
       },
       {
-        "keyword": "men",
-        "frequency": 5,
-        "relevance_score": 0.25
+        "keyword": "tamilnadu",
+        "frequency": 20,
+        "relevance_score": 1.0
       },
       {
-        "keyword": "amp",
-        "frequency": 5,
-        "relevance_score": 0.25
+        "keyword": "election",
+        "frequency": 20,
+        "relevance_score": 1.0
       },
       {
-        "keyword": "because",
-        "frequency": 4,
-        "relevance_score": 0.2
+        "keyword": "assembly",
+        "frequency": 6,
+        "relevance_score": 0.3
       },
       {
-        "keyword": "life",
-        "frequency": 4,
-        "relevance_score": 0.2
+        "keyword": "more",
+        "frequency": 2,
+        "relevance_score": 0.1
       },
       {
-        "keyword": "families",
-        "frequency": 4,
-        "relevance_score": 0.2
+        "keyword": "party",
+        "frequency": 2,
+        "relevance_score": 0.1
       },
       {
-        "keyword": "rights",
-        "frequency": 4,
-        "relevance_score": 0.2
+        "keyword": "state",
+        "frequency": 1,
+        "relevance_score": 0.05
       },
       {
-        "keyword": "not",
-        "frequency": 4,
-        "relevance_score": 0.2
+        "keyword": "point",
+        "frequency": 1,
+        "relevance_score": 0.05
       }
     ],
     "top_accounts": [],
     "trending_hashtags": [
       {
-        "hashtag": "#feminism",
+        "hashtag": "#\u30b4\u30b8\u30e5\u30a6\u30b8\u30e3\u30fc",
         "frequency": 1,
         "trending_score": 0.1
       },
       {
-        "hashtag": "#india",
+        "hashtag": "#\u4eee\u9762\u30e9\u30a4\u30c0\u30fc\u30ac\u30f4",
+        "frequency": 1,
+        "trending_score": 0.1
+      },
+      {
+        "hashtag": "#shailenzo",
+        "frequency": 1,
+        "trending_score": 0.1
+      },
+      {
+        "hashtag": "#\u0e04\u0e48\u0e32\u0e44\u0e1f\u0e41\u0e1e\u0e07",
+        "frequency": 1,
+        "trending_score": 0.1
+      },
+      {
+        "hashtag": "#yinyin_anw",
+        "frequency": 1,
+        "trending_score": 0.1
+      },
+      {
+        "hashtag": "#dmk",
+        "frequency": 1,
+        "trending_score": 0.1
+      },
+      {
+        "hashtag": "#tvk",
+        "frequency": 1,
+        "trending_score": 0.1
+      },
+      {
+        "hashtag": "#ADMK",
+        "frequency": 1,
+        "trending_score": 0.1
+      },
+      {
+        "hashtag": "#election",
+        "frequency": 1,
+        "trending_score": 0.1
+      },
+      {
+        "hashtag": "#tnelection",
         "frequency": 1,
         "trending_score": 0.1
       }
@@ -86,17 +127,12 @@
     "recommended_tweets": [
       {
         "id": "",
-        "relevance_score": 0.08,
+        "relevance_score": 0.02,
         "reason": "High engagement"
       },
       {
         "id": "",
-        "relevance_score": 0.06,
-        "reason": "High engagement"
-      },
-      {
-        "id": "",
-        "relevance_score": 0.04,
+        "relevance_score": 0.02,
         "reason": "High engagement"
       },
       {
@@ -106,7 +142,12 @@
       },
       {
         "id": "",
-        "relevance_score": 0.01,
+        "relevance_score": 0.0,
+        "reason": "High engagement"
+      },
+      {
+        "id": "",
+        "relevance_score": 0.0,
         "reason": "High engagement"
       },
       {
@@ -135,13 +176,13 @@
         "reason": "High engagement"
       }
     ],
-    "content_summary": "Analysis of 20 tweets related to the topic. Top trending hashtag is #feminism. ",
+    "content_summary": "Analysis of 20 tweets related to the topic. Top trending hashtag is #\u30b4\u30b8\u30e5\u30a6\u30b8\u30e3\u30fc. ",
     "execution_time": 0.0
   },
   "screening_result": {
     "relevance_assessment": {
       "overall_score": 0.7,
-      "explanation": "Found 20 tweets related to the query: feminism in india"
+      "explanation": "Found 20 tweets related to the query: Tamilnadu election 2026 who will win"
     },
     "prioritized_content": [
       {
@@ -175,8 +216,9 @@
         "missing_aspect": "Explore trending hashtags for more context",
         "importance": "medium",
         "recommended_sources": [
-          "#feminism",
-          "#india"
+          "#\u30b4\u30b8\u30e5\u30a6\u30b8\u30e3\u30fc",
+          "#\u4eee\u9762\u30e9\u30a4\u30c0\u30fc\u30ac\u30f4",
+          "#shailenzo"
         ]
       }
     ],
@@ -196,7 +238,7 @@
   "detailed_analysis_result": {
     "main_findings": {
       "key_story_elements": [
-        "Information about feminism in india"
+        "Information about Tamilnadu election 2026 who will win"
       ],
       "primary_perspectives": [
         "General public reactions"
@@ -206,7 +248,7 @@
     "detailed_analysis": {
       "dominant_narratives": [
         {
-          "narrative": "Discussion about feminism in india",
+          "narrative": "Discussion about Tamilnadu election 2026 who will win",
           "supporting_content": [
             "",
             "",
@@ -257,7 +299,7 @@
       ],
       "notable_discussions": [
         {
-          "topic": "feminism in india",
+          "topic": "Tamilnadu election 2026 who will win",
           "summary": "Various perspectives being shared on social media",
           "participant_types": [
             "general public",
@@ -270,7 +312,7 @@
       "news_value_assessment": "Medium",
       "suggested_angles": [
         {
-          "angle": "Analysis of public response to feminism in india",
+          "angle": "Analysis of public response to Tamilnadu election 2026 who will win",
           "rationale": "High engagement indicates public interest",
           "supporting_content": [
             "",
@@ -280,7 +322,7 @@
       ],
       "verification_needs": [
         {
-          "claim": "Primary claims about feminism in india",
+          "claim": "Primary claims about Tamilnadu election 2026 who will win",
           "importance": "high",
           "potential_sources": [
             "Official statements",
@@ -291,7 +333,7 @@
     },
     "execution_time": 0.0
   },
-  "execution_time": 56.74207925796509,
+  "execution_time": 67.57258653640747,
   "mongodb_save_result": {
     "status": "success",
     "message": "Saved 20 new tweets to MongoDB",

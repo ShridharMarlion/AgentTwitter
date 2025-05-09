@@ -23,7 +23,7 @@ DB_NAME = "news_dashboard"
 TWEETS_COLLECTION = "ai_crafted_tweets"
 
 # Set the user query
-USER_QUERY = "feminism in india"
+USER_QUERY = "Tamilnadu election 2026 who will win"
 
 # Configure RapidAPI key (get from environment or set directly)
 # API_KEY = os.environ.get("RAPIDAPI_KEY", "1b7fbde713msh01b13c842873aa5p1d82afjsna4a1f70b0ab0")

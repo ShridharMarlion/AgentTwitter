@@ -1,0 +1,120 @@
+{
+  "max_tweets": 500,
+  "api_key": "1b7fbde713msh01b13c842873aa5p1d82afjsna4a1f70b0ab0",
+  "mongo_uri": "mongodb://localhost:27017/",
+  "db_name": "news_dashboard",
+  "tweets_collection": "ai_crafted_tweets",
+  "save_all_tweets": true,
+  "type": "Latest",
+  "limit": 500,
+  "delay_between_calls": 2,
+  "query": "Tamilnadu Economy 2026 with IT sector",
+  "current_step": "detailed_analysis",
+  "results": {
+    "prompt_enhancer": {
+      "result": {
+        "core_topic": "Tamilnadu Economy in 2026 with a focus on the IT sector",
+        "keywords": [
+          "Tamilnadu Economy",
+          "2026",
+          "IT sector",
+          "future",
+          "projections",
+          "growth",
+          "technology",
+          "software",
+          "digital",
+          "innovation"
+        ],
+        "hashtags": [
+          "#TamilnaduEconomy",
+          "#ITsector",
+          "#FutureTrends",
+          "#TechGrowth",
+          "#DigitalInnovation"
+        ],
+        "accounts": [
+          "@CMOTamilNadu",
+          "@TNGOVDIPR",
+          "@stpiindia",
+          "@nasscom",
+          "@ficci_india",
+          "@FollowCII",
+          "@DIPPGOI",
+          "@GoI_MeitY",
+          "@NITIAayog",
+          "@InvestIndia"
+        ],
+        "search_query": "\"Tamilnadu Economy\" AND \"2026\" AND \"IT sector\" AND (\"future\" OR \"projections\" OR \"growth\" OR \"technology\" OR \"software\" OR \"digital\" OR \"innovation\")",
+        "rationale": "The keywords are chosen to cover all aspects of the topic - the geographic location (Tamilnadu), the time frame (2026), and the specific sector (IT). The hashtags are designed to capture relevant discussions on social media. The accounts include government bodies, industry associations, and investment promotion agencies that are likely to discuss this topic.",
+        "original_query": "Tamilnadu Economy 2026 with IT sector",
+        "execution_time": 12.96947956085205
+      },
+      "status": "success"
+    },
+    "web_scraping": {
+      "keyword_tweets": [],
+      "hashtag_tweets": [],
+      "account_tweets": [],
+      "combined_tweets": []
+    },
+    "x_interface": {
+      "result": {
+        "top_keywords": [],
+        "top_accounts": [],
+        "trending_hashtags": [],
+        "recommended_tweets": [],
+        "content_summary": "No tweets found to analyze",
+        "execution_time": 0.0
+      },
+      "status": "success"
+    },
+    "screening": {
+      "result": {
+        "relevance_assessment": {
+          "overall_score": 0.0,
+          "explanation": "The collected content does not match the user's requirements at all. No tweets were found that relate to the user's query about the Tamilnadu Economy in 2026 with a focus on the IT sector."
+        },
+        "prioritized_content": [],
+        "content_gaps": [
+          {
+            "missing_aspect": "All aspects of the user's query are missing from the collected content.",
+            "importance": "high",
+            "recommended_sources": [
+              "@CMOTamilNadu",
+              "@TNGOVDIPR",
+              "@stpiindia",
+              "@nasscom",
+              "@ficci_india",
+              "@FollowCII",
+              "@DIPPGOI",
+              "@GoI_MeitY",
+              "@NITIAayog",
+              "@InvestIndia"
+            ]
+          }
+        ],
+        "credibility_assessment": {
+          "overall_score": 0.0,
+          "flagged_content": []
+        },
+        "recommendations": {
+          "proceed_with_analysis": false,
+          "focus_areas": []
+        },
+        "execution_time": 11.402952432632446
+      },
+      "status": "success"
+    },
+    "detailed_analysis": {
+      "result": null,
+      "status": "error",
+      "error": ""
+    }
+  },
+  "errors": {
+    "detailed_analysis": ""
+  },
+  "start_time": "2025-05-09T19:23:39.509620",
+  "execution_time": 49.92116117477417
+}

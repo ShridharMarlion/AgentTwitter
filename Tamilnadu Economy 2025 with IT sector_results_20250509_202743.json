@@ -1,0 +1,37 @@
+{
+  "max_tweets": 500,
+  "api_key": "1b7fbde713msh01b13c842873aa5p1d82afjsna4a1f70b0ab0",
+  "mongo_uri": "mongodb://localhost:27017/",
+  "db_name": "news_dashboard",
+  "tweets_collection": "ai_crafted_tweets",
+  "save_all_tweets": true,
+  "type": "Latest",
+  "limit": 500,
+  "delay_between_calls": 2,
+  "query": "Tamilnadu Economy 2025 with IT sector",
+  "results": {
+    "prompt_enhancer": {
+      "core_topic": "Future of Tamilnadu's economy in 2025 with a focus on the IT sector",
+      "keywords": [
+        "Tamilnadu",
+        "Economy 2025",
+        "IT sector"
+      ],
+      "hashtags": [
+        "#TamilnaduEconomy",
+        "#Future2025",
+        "#ITSector"
+      ],
+      "accounts": [
+        "@TNGovernment",
+        "@ITAssociationTN",
+        "@EconomicTimesTN"
+      ],
+      "search_query": "\"Tamilnadu Economy 2025\" OR \"Tamilnadu IT sector\" OR \"Tamilnadu economic growth\" -filter:retweets",
+      "rationale": "The keywords cover the main aspects of the query, hashtags are commonly used in social media for categorization, key accounts are likely to provide insights, and the search query is optimized to include variations and exclude retweets for more focused results."
+    }
+  },
+  "errors": {
+    "web_scraping": "TwitterScraper.__init__() missing 1 required positional argument: 'api_key'"
+  }
+}

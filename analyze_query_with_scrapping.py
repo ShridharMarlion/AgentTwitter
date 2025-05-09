@@ -6,7 +6,7 @@ import requests
 import argparse
 import numpy as np
 from datetime import datetime
-from src.scrap.rapid import TwitterScraper, test_mongodb_connection
+from src.agents.rapid_agent import TwitterScraper, test_mongodb_connection
 
 # Configuration (default values, can be overridden by command line arguments)
 SEARCH_QUERY = "pahalgam Amit Shah"
